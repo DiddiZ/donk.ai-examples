@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"donk.ai" = {editable = true, git = "https://github.com/DiddiZ/donk.ai"}
+gym = "*"
+mujoco-py = "~=2.1.2.14"
+"industrial-benchmark-python" = {editable = true, git = "https://github.com/DiddiZ/industrialbenchmark"}
+
+[dev-packages]
+yapf = "*"
+flake8 = "*"
+flake8-docstrings = "*"
+isort = "*"
+
+[requires]
+python_version = "3.10"
